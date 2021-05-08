@@ -1,0 +1,276 @@
+.hero {
+    background: linear-gradient(110deg, white 40%, rgb(129, 86, 252) 40%);
+}
+
+.hero-me {
+	/* margin-top: 240px; */
+}
+
+.hero-me img {
+	width: 35%;
+}
+
+.hero-me h1 {
+	width: 50%;
+	font-size: 24px;
+	background-color: #000000;
+	color: white;
+}
+
+.hero-me h2 {
+	/* font-size: 18px;
+	padding-left: 12%;
+	margin-bottom: 20px; */
+}
+
+.hero-me p {
+	background-color: #000000;
+	word-spacing: 1px;
+	color: white;
+}
+
+.hero-page {
+	margin-top: 150px;
+}
+
+.hero-page .page {
+	width: 90%;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.hero-page .page:hover {
+	transform: translateX(-0.828%) translateY(0.421%);
+}
+
+.hero-page .pen {
+	position: absolute;
+	left: 15%;
+	top: 40%;
+	width: 45%;
+	transform: rotate(-45deg);
+	margin-top: 25%;
+	margin-left: 25%;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.hero-page .pen:hover {
+	transform: rotate(-30deg);
+}
+
+.rubic {
+	position: absolute;
+	margin: auto;
+	z-index: 1;
+}
+
+.hero .rubic-purp {
+	max-width: 150px;
+	top: 25vh;
+	left: 50%;
+}
+
+.hero .rubic-white {
+	max-width: 100px;
+	top: 75vh;
+	right: 22%;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hero {
+		background: linear-gradient(110deg, white 55%, rgb(129, 86, 252) 55%);
+	}
+
+	.hero-me {
+        margin-top: 150px;
+    }
+
+	.hero-me h1 {
+		width: 64%;
+		font-size: 18px;
+	}
+
+	.hero-me img {
+		width: 40%;
+		margin: 0 0 7px 0;
+	}
+
+	.hero-me h2 {
+		font-size: 14px;
+		padding-left: 8%;
+		margin-bottom: 10px;
+	}
+
+	.hero-me p {
+		word-spacing: 0;
+		padding: 20px 20px 0 20px;
+		text-indent: 23px;
+		font-size: 15px;
+	}
+
+	.hero-page {
+        display: none;
+    }
+
+	.hero-page .pen {
+		top: 35%;
+	}
+
+	.hero .rubic-purp {
+		max-width: 130px;
+		margin-top: 320px;
+		left: 58%;
+	}
+
+	.hero .rubic-white {
+		display: none;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero {
+		background: linear-gradient(110deg, white 60%, rgb(129, 86, 252) 60%);
+	}
+
+	.hero-me {
+        margin-top: 140px;
+    }
+
+	.hero-me img {
+		width: 34%;
+		margin: 20px;
+		margin-bottom: 5px;
+	}
+
+	.hero-me h2 {
+		padding-left: 11%;
+	}
+
+	.hero-me h1 {
+		width: 63%;
+	}
+
+	.hero .rubic-purp {
+		max-width: 150px;
+		top: 50%;
+		left: 57%;
+	}
+
+	.hero-page {
+		display: none;
+	}
+
+	.hero .rubic-white {
+		display: none;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero-me {
+		margin-top: 40px;
+	}
+
+	.hero-me img {
+		width: 45%;
+	}
+
+	.hero-me h1 {
+		width: 67%;
+		font-size: 16px;
+	}
+
+	.hero-me p {
+		text-indent: 0;
+		font-size: 12px;
+	}
+
+	.styled_button {
+		font-size: 14px;
+		padding: 6px 13px;
+	}
+
+	.hero-page {
+        margin-top: 250px;
+    }
+
+	.hero-page .pen {
+		top: 43%;
+	}
+
+	.hero .rubic-purp {
+        max-width: 130px;
+        top: 30vh;
+    }
+
+	.hero .rubic-white {
+		max-width: 100px;
+		top: 70%;
+		right: 10%;
+	}
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero-page {
+        margin-top: 200px;
+    }
+
+    .hero-me h1 {
+        width: 70%;
+    }
+
+    .hero .rubic-white {
+        right: 8%;
+    }
+
+    .hero {
+        background: linear-gradient(110deg, white 45%, rgb(129, 86, 252) 45%);
+    }
+
+	.hero .rubic-white {
+		max-width: 90px;
+		top: 66%;
+		right: 10%;
+	}
+
+	.hero .rubic-purp {
+		max-width: 140px;
+		top: 40px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1441.98px){
+    .hero-page .page {
+        width: 75%;
+    }
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
+}
