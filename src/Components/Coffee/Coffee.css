@@ -78,6 +78,7 @@
 @media (max-width: 575.98px) {
     .what-can {
 		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, white 100%);
+        height: auto;
 	}
 
 	.counter-sec {
@@ -145,6 +146,10 @@
 		margin-top: 3px;
 		text-align: center;
 	}
+
+    .card_icon i {
+        color: #ffffff;
+    }
 
 	.hire-me {
 		margin: 25px 0 50px 15px;

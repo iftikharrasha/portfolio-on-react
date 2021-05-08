@@ -1,6 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
-  color: #2D2E2F;
+  color: #2D2E2F !important;
 }
 
 .App {

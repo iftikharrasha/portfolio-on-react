@@ -1,5 +1,5 @@
 .hero {
-    background: linear-gradient(110deg, white 40%, rgb(129, 86, 252) 40%);
+    background-color: #06060c;
 }
 
 .hero-me {
@@ -11,20 +11,15 @@
 }
 
 .hero-me h1 {
-	width: 50%;
 	font-size: 24px;
-	background-color: #000000;
 	color: white;
 }
 
 .hero-me h2 {
-	/* font-size: 18px;
-	padding-left: 12%;
-	margin-bottom: 20px; */
+	font-size: 24px;
 }
 
 .hero-me p {
-	background-color: #000000;
 	word-spacing: 1px;
 	color: white;
 }
@@ -80,16 +75,11 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .hero {
-		background: linear-gradient(110deg, white 55%, rgb(129, 86, 252) 55%);
-	}
-
 	.hero-me {
         margin-top: 150px;
     }
 
 	.hero-me h1 {
-		width: 64%;
 		font-size: 18px;
 	}
 
@@ -132,10 +122,6 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .hero {
-		background: linear-gradient(110deg, white 60%, rgb(129, 86, 252) 60%);
-	}
-
 	.hero-me {
         margin-top: 140px;
     }
@@ -148,10 +134,6 @@
 
 	.hero-me h2 {
 		padding-left: 11%;
-	}
-
-	.hero-me h1 {
-		width: 63%;
 	}
 
 	.hero .rubic-purp {
@@ -180,7 +162,6 @@
 	}
 
 	.hero-me h1 {
-		width: 67%;
 		font-size: 16px;
 	}
 
@@ -220,16 +201,8 @@
         margin-top: 200px;
     }
 
-    .hero-me h1 {
-        width: 70%;
-    }
-
     .hero .rubic-white {
         right: 8%;
-    }
-
-    .hero {
-        background: linear-gradient(110deg, white 45%, rgb(129, 86, 252) 45%);
     }
 
 	.hero .rubic-white {

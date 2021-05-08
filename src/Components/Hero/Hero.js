@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import rasha from '../../img/rasha.png';
+import rasha from '../../img/rasha.svg';
 import page from '../../img/page.png';
 import pen from '../../img/pen.png';
 import white from '../../img/white.png';
@@ -17,7 +17,7 @@ const Hero = () => {
                             <div className="hero-me pt-5">
                                 <img className="wow bounceIn" data-wow-duration="1s" data-wow-delay=".1s" src={rasha}
                                     alt="rasha"/>
-                                <h2>I am Iftikhar Rasha <span className="element"></span></h2>
+                                <h2 className="p-3 pb-0 mb-0">Iftikhar Rasha <span className="element"></span></h2>
                                 <h1 className="p-3 pb-0 mb-0">Full Stack Web Developer</h1>
                                 <p className="p-3">Resolving design problems, building smart user interfaces and useful interactions,
                                     developing
