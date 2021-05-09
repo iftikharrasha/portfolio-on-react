@@ -17,13 +17,11 @@ const Hero = () => {
                             <div className="hero-me pt-5">
                                 <img className="wow bounceIn" data-wow-duration="1s" data-wow-delay=".1s" src={rasha}
                                     alt="rasha"/>
-                                <h2 className="p-3 pb-0 mb-0">Iftikhar Rasha <span className="element"></span></h2>
-                                <h1 className="p-3 pb-0 mb-0">Full Stack Web Developer</h1>
-                                <p className="p-3">Resolving design problems, building smart user interfaces and useful interactions,
-                                    developing
-                                    rich web applications and seamless web experience.<br></br>
+                                <h2 className="py-3 pl-0 pb-0 mb-0">Iftikhar Rasha <span className="element"></span></h2>
+                                <h1 className="py-3 pl-0 pb-0 mb-0">Full Stack Web Developer</h1>
+                                <p className="py-3 pl-0">Resolving design problems, building smart user interfaces and useful interactions,
+                                    developing rich web applications and seamless web experience.<br></br>
                                 </p>
-
                                 <a href="#works" className="styled_button wow fadeInDown" data-wow-delay="0.5s">My Works</a>
                             </div>
                         </Col>

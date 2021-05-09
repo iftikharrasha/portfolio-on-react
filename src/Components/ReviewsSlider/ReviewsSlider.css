@@ -1,0 +1,130 @@
+.testimonials {
+	background: linear-gradient(60deg, rgb(129, 86, 252) 54%, white 54%);
+}
+
+.reviews {
+    padding-top: 300px;
+	position: relative;
+}
+
+.reviews::before {
+	content: "\f10d";
+	font-family: FontAwesome;
+	position: absolute;
+	font-size: 80px;
+	color: #c1c1c1;
+	transform: translateY(-50%) rotate(15deg);
+	z-index: 1;
+	left: 10%;
+}
+
+.reviews::after {
+	content: "\f10e";
+	font-family: FontAwesome;
+	position: absolute;
+	font-size: 80px;
+	color: rgb(129, 86, 252);
+	transform: translateY(-50%) rotate(15deg);
+	z-index: 1;
+	right: 10%;
+}
+
+.glider-next,
+.glider-prev {
+	display: none;
+	cursor: pointer;
+}
+
+.glider-next:focus,
+.glider-prev:focus {
+	outline: none;
+}
+
+.glider-dot:focus {
+	outline: none;
+}
+
+.glider-dot.active {
+	background: black;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.testimonials {
+		background: linear-gradient(60deg, rgb(129, 86, 252) 62%, white 62%);
+	}
+
+	.reviews {
+		padding-top: 250px;
+	}
+
+	.reviews::before {
+		font-size: 60px;
+	}
+
+	.reviews::after {
+		font-size: 60px;
+		bottom: 0;
+		color: #c1c1c1;
+	}
+
+	.glider-dots {
+		display: none;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .reviews {
+		padding-top: 250px;
+	}
+
+	.reviews::after {
+		color: black;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .reviews {
+		padding-top: 250px;
+	}
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .reviews {
+		padding-top: 250px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1441.98px){
+    .reviews {
+		padding-top: 250px;
+	}
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
+}

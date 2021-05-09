@@ -77,6 +77,10 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+	.projects {
+		padding-top: 50px;
+	}
+	
     .products-tabs {
 		width: 80%;
 		margin-top: 140px;

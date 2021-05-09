@@ -11,12 +11,12 @@ a:hover{
   text-decoration: none;
 }
 
-.hero, .what-can {
+.hero, .what-can, .projects, .gigs, .testimonials {
   height: 100vh;
 }
 
 .styled_button {
-	background-color: black;
+	background-color: #673de6;
 	color: white;
 	text-decoration: none;
 	padding: 8px 15px;
@@ -32,6 +32,6 @@ a:hover{
 .styled_button:hover {
 	background-color: #e68966;
 	color: black;
-	box-shadow: 8px 8px 0px 1px black;
+	box-shadow: 8px 8px 0px 1px #673de6;
 	text-decoration: none;
 }

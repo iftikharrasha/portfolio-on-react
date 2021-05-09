@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "key":"TTE1RTR57H",
+      "buyer": "David Zehnder",
+      "comment": "Really happy that I found this seller. Great communication, works efficient and delivers good quality. And has a sense of humour, My man!",
+      "avatar":"https://i.ibb.co/tLfYPH5/davidzehnder.jpg",
+      "from": "Switzerland",
+      "project": "Ucademy",
+      "flag":"https://i.ibb.co/fMXMTF4/switzerland.png"
+    },
+    {
+      "id": 2,
+      "key":"AV71RRTTYH",
+      "buyer": "Mussa Albeer",
+      "comment": "I previously worked with many different web-developers, but Iftikhar stands out on top of the list. I will definitely be using Iftikhar regularly in the future.",
+      "avatar":"https://i.ibb.co/DwKZz8R/Mussa-Albeer.jpg",
+      "from": "UK",
+      "project": "Mega Supply Ltd",
+      "flag":"https://i.ibb.co/1z47JXM/unitedkingdom.png"
+    },
+    {
+      "id": 3,
+      "key":"BNSKRK8SFF",
+      "buyer": "Shahid Saleem",
+      "comment": "The seller is very professional and he did the job according to my requirements. Definitely, I'll hire him again. 100% recomended, will buy again.",
+      "avatar":"https://i.ibb.co/ry4891S/Shahid-Saleem.jpg",
+      "from": "Pakistan",
+      "project": "Graphics WP",
+      "flag":"https://i.ibb.co/4WKd1tK/pakistan.png"
+    },
+    {
+      "id": 4,
+      "key":"MMSTR385YR",
+      "buyer": "Sylvaine Francis",
+      "comment": "Excellent job, as usual. Plus plenty of explanation in outstanding English for me to understand than just be drowned in codes. Highly recommended.",
+      "avatar":"https://i.ibb.co/RzsPzgr/afribean.png",
+      "from": "UK",
+      "project": "Afribean Biz",
+      "flag":"https://i.ibb.co/1z47JXM/unitedkingdom.png"
+    },
+    {
+      "id": 5,
+      "key":"QU71TC8573",
+      "buyer": "Master Ming",
+      "comment": "Quality and very good delivery with thorough explanation as requested. Will keep him in my team for the services above what is expected, Definitely use again",
+      "avatar":"https://i.ibb.co/FVfSX3X/masterming008.png",
+      "from": "UK",
+      "project": "Freefinity Ltd",
+      "flag":"https://i.ibb.co/1z47JXM/unitedkingdom.png"
+    }
+  ]

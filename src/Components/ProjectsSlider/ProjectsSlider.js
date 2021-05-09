@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Slider from 'react-slick';
 import "../../../node_modules/slick-carousel/slick/slick.css"; 
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
@@ -72,11 +72,11 @@ const ProjectsSlider = () => {
            <section className="projects">
                 <Container>
                     <Row className="responsive">
-                    <Slider {...settings}>
-                        {
-                          project.map(project => <Project project={project} key={project.key}></Project>)
-                        }
-                    </Slider>
+                        <Slider {...settings}>
+                            {
+                              project.map(project => <Project project={project} key={project.key}></Project>)
+                            }
+                        </Slider>
                     </Row>
                 </Container>
            </section>
