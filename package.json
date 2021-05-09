@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.0",
     "counterup2": "^1.0.4",
+    "emailjs-com": "^2.6.4",
     "fullpage.js": "^3.1.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
