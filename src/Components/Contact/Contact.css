@@ -1,0 +1,158 @@
+.contact {
+	/* background-image: url(../img/contact.png); */
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background: linear-gradient(270deg, rgb(129, 86, 252) 30%, white 30%);
+}
+
+.modal-form {
+	width: 70%;
+	padding: 45px;
+	text-align: center;
+	background-color: #000;
+	border-radius: 10px;
+	margin-top: 250px;
+}
+
+.form-information {
+	color: #c1c1c1;
+}
+
+.form-information span {
+	color: #e68966;
+}
+
+.form-options {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.information-name,
+.information-email {
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	height: 50px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.information-name input,
+.information-email input {
+	width: 100%;
+	padding: 0 0 5px 0;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	border-radius: 0;
+	color: #c1c1c1;
+}
+
+.information-submit input {
+	width: 400px;
+	max-width: 50%;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: tomato;
+	border: none;
+	border-radius: 0;
+}
+
+.information-name input:focus,
+.information-email input:focus,
+.information-submit input:focus {
+	outline: none;
+}
+
+.social_icon {
+	margin-top: 10px;
+}
+
+.social_icon i {
+	font-size: 24px;
+	margin: 0 15px;
+	color: rgb(129, 86, 252);
+	transition: transform .2s linear;
+}
+
+.social_icon i:hover {
+	transform: translateY(-10px);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.contact {
+		background-image: none;
+	}
+
+	.modal-form {
+		width: 100%;
+		margin-top: 200px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .modal-form {
+		width: 95%;
+		margin-top: 200px;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .modal-form {
+		width: 95%;
+		margin-top: 200px;
+	}
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .modal-form {
+		width: 95%;
+		margin-top: 200px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1441.98px){
+    .modal-form {
+		margin-top: 200px;
+	}
+
+	.information-name,
+	.information-email {
+		width: 85%;
+		height: 45px;
+		font-size: 16px;
+	}
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
+}

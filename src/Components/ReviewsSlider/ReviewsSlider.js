@@ -74,27 +74,16 @@ const ReviewsSlider = () => {
                     <div className="reviews">
                         <Row>
                             <Col>
-                            <div className="glider-contain multiple">
-                                {/* <button className="glider-prev">
-                                    <i className="fa fa-chevron-left sm-none"></i>
-                                </button> */}
-                                
-                                <div className="glider">
+                                <div className="glider-contain multiple">
+                                    <div className="glider">
 
-                                    <Slider {...settings}>
-                                        {
-                                            review.map(review => <Review review={review} key={review.key}></Review>)
-                                        }
-                                    </Slider>
-                                    
-                                    
-                                </div>
-
-                                {/* <button className="glider-next">
-                                    <i className="fa fa-chevron-right sm-none"></i>
-                                </button> */}
-
-                                <div className="glider-dots" id="dots"></div>
+                                        <Slider {...settings}>
+                                            {
+                                                review.map(review => <Review review={review} key={review.key}></Review>)
+                                            }
+                                        </Slider>
+                        
+                                    </div>
                                 </div>
                             </Col>
                         </Row>
