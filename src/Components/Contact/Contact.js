@@ -4,8 +4,6 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 import page from '../../img/page.png';
 import pen from '../../img/pen.png';
-import white from '../../img/white.png';
-import purple from '../../img/purple.png';
 import './Contact.css';
 
 const Contact = () => {
