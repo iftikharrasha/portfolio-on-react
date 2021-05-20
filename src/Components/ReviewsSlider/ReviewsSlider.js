@@ -16,7 +16,7 @@ const ReviewsSlider = () => {
 
     var settings = {
         dots: true,
-        arrows: true,
+        arrows: false,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 3000,

@@ -1,5 +1,5 @@
 .testimonials {
-	background: linear-gradient(60deg, rgb(129, 86, 252) 54%, white 54%);
+	background: linear-gradient(60deg, rgb(129, 86, 252) 54%, #121212 54%);
 }
 
 .reviews {
@@ -51,7 +51,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.testimonials {
-		background: linear-gradient(60deg, rgb(129, 86, 252) 62%, white 62%);
+		background: linear-gradient(60deg, rgb(129, 86, 252) 62%, #121212 62%);
 	}
 
 	.reviews {

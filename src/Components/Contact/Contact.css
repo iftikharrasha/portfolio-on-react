@@ -3,7 +3,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-    background: linear-gradient(270deg, rgb(129, 86, 252) 30%, white 30%);
+    background: linear-gradient(270deg, rgb(129, 86, 252) 30%, #121212 30%);
 }
 
 .modal-form {
@@ -86,7 +86,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.contact {
-		background-image: none;
+		background: #121212 ;
 	}
 
 	.modal-form {
@@ -156,6 +156,3 @@
 @media (min-width: 321px) and (max-width: 376px) {
 	
 }
-
-
-/*service_q3keunh*/

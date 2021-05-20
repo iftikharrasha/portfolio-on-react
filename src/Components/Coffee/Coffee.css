@@ -1,9 +1,9 @@
 .what-can {
-	background: linear-gradient(90deg, rgb(129, 86, 252) 33%, white 33%);
+	background: linear-gradient(90deg, rgb(129, 86, 252) 33%, #121212 33%);
 }
 
 .counter-sec {
-	background: linear-gradient(90deg, rgb(129, 86, 252) 45%, white 45%);
+	background: linear-gradient(90deg, rgb(129, 86, 252) 45%, #121212 45%);
 	padding-top: 150px;
 }
 
@@ -77,12 +77,12 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .what-can {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, white 100%);
+		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, #121212 100%);
         height: auto;
 	}
 
 	.counter-sec {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 25%, white 25%);
+		background: linear-gradient(90deg, rgb(129, 86, 252) 25%, #121212 25%);
         padding: 30px 0px;
 	}
 
@@ -159,7 +159,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .what-can {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 15%, white 15%);
+		background: linear-gradient(90deg, rgb(129, 86, 252) 15%, #121212 15%);
 	}
 
     .counter-sec {
@@ -222,7 +222,7 @@
 /* Medium devices(sm) (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .what-can {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 28%, white 28%);
+		background: linear-gradient(90deg, rgb(129, 86, 252) 28%, #121212 28%);
 	}
 
     .counter-sec {
@@ -286,7 +286,7 @@
 /* Large devices(md) (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .what-can {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 27%, white 27%);
+		background: linear-gradient(90deg, rgb(129, 86, 252) 27%, #121212 27%);
 	}
 
     .counter-sec {
@@ -337,7 +337,7 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1441.98px){
     .what-can {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 27%, white 27%);
+		background: linear-gradient(90deg, rgb(129, 86, 252) 27%, #121212 27%);
 	}
 
     .counter-sec {

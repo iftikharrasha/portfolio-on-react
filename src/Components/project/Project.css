@@ -1,5 +1,5 @@
 .projects {
-	background: linear-gradient(60deg, white 60%, rgb(129, 86, 252) 60%);
+	background: linear-gradient(60deg, #121212 60%, rgb(129, 86, 252) 60%);
 	padding-top: 150px;
 }
 
@@ -46,7 +46,7 @@
 .slick-next:before,
 .slick-prev:before {
 	font-size: 100px;
-	color: #000;
+	color: #e68966;
 }
 
 .slick-prev {
@@ -67,12 +67,12 @@
 
 .slick-dots li button:before {
 	font-size: 10px;
-	color: black;
+	color: #e68966;
 }
 
 .slick-dots li button:before {
 	font-size: 10px;
-	color: #673de6;
+	color: black;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -110,7 +110,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .projects {
-        background: linear-gradient(60deg, white 60%, rgb(129, 86, 252) 60%);
+        background: linear-gradient(60deg, #121212 60%, rgb(129, 86, 252) 60%);
         padding-top: 100px;
     }
 
@@ -131,7 +131,7 @@
 /* Medium devices(sm) (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .projects {
-		background: linear-gradient(60deg, white 64%, rgb(129, 86, 252) 64%);
+		background: linear-gradient(60deg, #121212 64%, rgb(129, 86, 252) 64%);
 	}
 
 	.products-tabs {

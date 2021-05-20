@@ -2,6 +2,10 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
+import page from '../../img/page.png';
+import pen from '../../img/pen.png';
+import white from '../../img/white.png';
+import purple from '../../img/purple.png';
 import './Contact.css';
 
 const Contact = () => {
@@ -44,7 +48,7 @@ const Contact = () => {
             <section className="contact">
                 <Container>
                     <Row>
-                        <Col lg={6} md={8} className=" offset-lg-6 offset-md-4">
+                        <Col lg={6} md={8} className="">
                             <div className="modal-form">
                                 <div className="form-information">
                                     <p>What would you do if you had an experienced web expert
@@ -90,6 +94,15 @@ const Contact = () => {
                                 </div>
                             </div>
                         </Col>
+                        <Col lg={6} md={4}>
+                            <div className="hero-page">
+                                <img className="page" src={page} alt="page"/>
+                                <img className="pen" src={pen} alt="pen"/>
+                            </div>
+                        </Col>
+                        
+                        {/* <img className="rubic rubic-purp" src={purple} alt="purpcube"/>
+                        <img className="rubic rubic-white" src={white} alt="whitecube"/> */}
                     </Row>
                 </Container>
             </section>

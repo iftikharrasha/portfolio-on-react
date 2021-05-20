@@ -22,9 +22,9 @@ const Header = () => {
             <header className={scroll ? "header-sticky" : "header"}>
                 <Container>
                         <nav className="navbarItems">
-                            <a href="/home" className="navbar-logo">
+                            <Link to="/home" className="navbar-logo">
                                 <img src={logo} width="100%" className="d-inline-block align-top" alt="iftikharrasha"/>
-                            </a>
+                            </Link>
 
                              <div className="menu-icon" id="toggle-btn" onClick={activeToggle}>
                                 <svg width="50" height="50" viewBox="0 0 100 100">
@@ -34,10 +34,10 @@ const Header = () => {
                                 </svg>
                             </div>
                             <div className="nav-menu" id="mobile-nav">
-                                    <a href="/home" className="pr-4 active nav-links nav-top-mt" onClick={activeToggle}>Home</a>
-                                    <a href="/projects" className="pr-4 nav-links" onClick={activeToggle}>Projects</a>
-                                    <a href="/about" className="pr-4 nav-links" onClick={activeToggle}>About Us</a>
-                                    <a href="http://iftikharrasha.me" className="pr-4 nav-links" target="_blank">Download CV</a>
+                                    <Link to="/home" className="pr-4 active nav-links nav-top-mt" onClick={activeToggle}>Home</Link>
+                                    <Link to="/projects" className="pr-4 nav-links" onClick={activeToggle}>Projects</Link>
+                                    <Link to="/about" className="pr-4 nav-links" onClick={activeToggle}>About Us</Link>
+                                    <Link to="http://iftikharrasha.me" className="pr-4 nav-links" target="_blank">Download CV</Link>
                             </div>
                         </nav>
                 </Container>

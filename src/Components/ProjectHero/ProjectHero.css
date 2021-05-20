@@ -1,0 +1,123 @@
+.project-hero {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../../img/project-hero.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.phero-text h1 {
+	color: #121212;
+	padding-top: 10%;
+	font-size: 100px;
+	font-weight: 700;
+}
+
+.parallax-items .ruler {
+	width: 40px;
+	margin-top: 5%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+.parallax-items .markbold {
+	position: absolute;
+	top: 77%;
+	right: 8%;
+	width: 25px;
+	margin-top: 5%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+.parallax-items .marksemi {
+	position: absolute;
+	top: 37%;
+	right: 18%;
+	width: 15px;
+	margin-top: 5%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.phero-text h1 {
+		padding-top: 100%;
+		font-size: 45px;
+	}
+
+	.parallax-items .ruler {
+		top: 45%;
+		width: 30px;
+	}
+
+	.parallax-items .marksemi {
+		top: 30%;
+		width: 10px;
+	}
+
+	.parallax-items .markbold {
+		right: 10%;
+		width: 15px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .phero-text h1 {
+		padding-top: 50%;
+		font-size: 80px;
+	}
+
+	.parallax-items .ruler {
+		width: 35px;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.parallax-items .ruler {
+		width: 35px;
+	}
+
+	.phero-text h1 {
+		padding-top: 30%;
+	}
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1441.98px){
+  
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
+}
