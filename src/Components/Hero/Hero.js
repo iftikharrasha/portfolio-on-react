@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import rasha from '../../img/rasha.svg';
-import page from '../../img/page.png';
-import pen from '../../img/pen.png';
 import white from '../../img/white.png';
 import purple from '../../img/purple.png';
 import './Hero.css';
