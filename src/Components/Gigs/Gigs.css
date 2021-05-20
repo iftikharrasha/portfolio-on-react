@@ -75,12 +75,20 @@
     .giglist .giglist_item img  {
 		height: 195px;
 	}
+
+	.gigs {
+		padding-top: 80px;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1441.98px){
     .giglist .giglist_item img  {
 		height: 220px;
+	}
+
+	.gigs {
+		padding-top: 80px;
 	}
 }
   

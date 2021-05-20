@@ -68,11 +68,11 @@
 .slick-dots li button:before {
 	font-size: 10px;
 	color: #e68966;
+	opacity: .5;
 }
 
-.slick-dots li button:before {
-	font-size: 10px;
-	color: black;
+.slick-dots li.slick-active button:before {
+    color: white;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -126,6 +126,10 @@
 	.slick-prev {
 		left: 0;
 	}
+
+	.projects {
+		padding-top: 50px;
+	}
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -164,11 +168,17 @@
 	.slick-next {
 		right: 80px;
 	}
+
+	.projects {
+		padding-top: 100px;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1441.98px){
-    
+    .projects {
+		padding-top: 50px;
+	}
 }
   
 /* Extra large devices (large desktops, 1200px and up) */

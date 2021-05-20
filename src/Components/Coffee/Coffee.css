@@ -12,6 +12,7 @@
 }
 
 .count-item .count {
+	font-family: 'Major Mono Display', monospace;
 	font-size: 40px;
 	font-weight: 700;
 }
@@ -76,9 +77,9 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .what-can {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, #121212 100%);
-        height: auto;
+	.what-can {
+		background: #121212;
+		height: auto;
 	}
 
 	.counter-sec {
@@ -95,11 +96,6 @@
 		width: 50%;
 		margin: 0 auto;
 		padding: 20px;
-		color: black;
-	}
-
-	.count-white {
-		color: black !important;
 	}
 
 	.count-item p {
@@ -163,7 +159,7 @@
 	}
 
     .counter-sec {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
 	.counts {
@@ -217,6 +213,10 @@
 	.hire-me {
 		margin: 25px 0 50px 15px;
 	}
+
+	.count-white{
+		color: #fff;
+	}
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -226,7 +226,7 @@
 	}
 
     .counter-sec {
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
 	.counts {
@@ -281,6 +281,10 @@
 	.hire-me {
 		margin-top: 25px;
 	}
+
+	.count-white{
+		color: #fff;
+	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -290,7 +294,7 @@
 	}
 
     .counter-sec {
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
 	.counts {
@@ -331,6 +335,10 @@
 
 	.hire-me {
 		margin-top: 25px;
+	}
+
+	.count-white{
+		color: #fff;
 	}
 }
 
@@ -341,7 +349,7 @@
 	}
 
     .counter-sec {
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
 	.counts {
@@ -383,11 +391,17 @@
 	.hire-me {
 		margin-top: 25px;
 	}
+
+	.count-white{
+		color: #fff;
+	}
 }
   
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1442px) {
-    
+    .count-white{
+		color: #fff;
+	}
 }
 
   

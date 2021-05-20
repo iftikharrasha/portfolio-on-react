@@ -55,7 +55,7 @@
 	}
 
 	.reviews {
-		padding-top: 250px;
+		padding-top: 200px;
 	}
 
 	.reviews::before {
@@ -64,7 +64,7 @@
 
 	.reviews::after {
 		font-size: 60px;
-		bottom: 0;
+		bottom: -80px;
 		color: #c1c1c1;
 	}
 
@@ -76,7 +76,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .reviews {
-		padding-top: 250px;
+		padding-top: 200px;
 	}
 
 	.reviews::after {
@@ -87,14 +87,14 @@
 /* Medium devices(sm) (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .reviews {
-		padding-top: 250px;
+		padding-top: 200px;
 	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .reviews {
-		padding-top: 250px;
+		padding-top: 200px;
 	}
 }
 

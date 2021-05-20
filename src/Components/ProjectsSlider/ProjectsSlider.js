@@ -11,7 +11,7 @@ const ProjectsSlider = () => {
     const [project, setProject] = useState([]);
     useEffect(() => {
     setProject(projects);
-      console.log(projects);
+      // console.log(projects);
     }, [])
 
     var settings = {
@@ -69,7 +69,7 @@ const ProjectsSlider = () => {
 
     return (
         <>
-           <section className="projects">
+           <section className="projects" id="works">
                 <Container>
                     <Row className="responsive">
                         <Slider {...settings}>

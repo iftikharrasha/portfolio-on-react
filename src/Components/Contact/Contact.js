@@ -48,7 +48,7 @@ const Contact = () => {
             <section className="contact">
                 <Container>
                     <Row>
-                        <Col lg={6} md={8} className="">
+                        <Col lg={6} className="">
                             <div className="modal-form">
                                 <div className="form-information">
                                     <p>What would you do if you had an experienced web expert
@@ -94,7 +94,7 @@ const Contact = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={6} md={4}>
+                        <Col lg={6}>
                             <div className="hero-page">
                                 <img className="page" src={page} alt="page"/>
                                 <img className="pen" src={pen} alt="pen"/>

@@ -1,0 +1,274 @@
+.education{
+    background-color: #121212;
+}
+
+.timeline-items {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 150px 0;
+}
+
+.timeline {
+	position: relative;
+	width: 800px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timeline:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 8px;
+	height: 764px;
+	background-color: #ede4e4;
+}
+
+.timeline ul {
+	width: 100%;
+	list-style-type: none;
+}
+
+.timeline ul li {
+	width: 50%;
+	padding: 5px 50px 40px 50px;
+	cursor: pointer;
+}
+
+.timeline ul .point-one::before,
+.timeline ul .point-two::before,
+.timeline ul .point-three::before,
+.timeline ul .point-four::before {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: rgb(129, 86, 252);
+	border-radius: 50%;
+	right: 48%;
+	top: 3%;
+	transition: .5s;
+}
+
+.timeline ul .point-one::before {
+	top: 3%;
+}
+
+.timeline ul .point-two::before {
+	top: 26%;
+}
+
+.timeline ul .point-three::before {
+	top: 49%;
+}
+
+.timeline ul .point-four::before {
+	top: 72%;
+}
+
+.timeline ul li:hover:before {
+	box-shadow: 0px 0px 5px 2px rgb(129, 86, 252);
+}
+
+.timeline ul li:nth-child(even) {
+	float: right;
+	text-align: left;
+	clear: both;
+}
+
+.timeline ul li:nth-child(odd) {
+	float: left;
+	text-align: right;
+	clear: both;
+}
+
+.timeline ul .point-one .time,
+.timeline ul .point-two .time,
+.timeline ul .point-three .time,
+.timeline ul .point-four .time {
+	position: absolute;
+	background-color: rgb(129, 86, 252);
+	color: #fff;
+	text-align: center;
+	padding-left: 10px;
+	line-height: 28px;
+	height: 28px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 0px 3px rgb(149 143 169);
+}
+
+.timeline ul .point-one .time {
+	right: 30%;
+	top: 3%;
+	width: 120px;
+}
+
+.timeline ul .point-two .time {
+	left: 23%;
+	top: 27%;
+	width: 150px;
+}
+.timeline ul .point-three .time {
+	right: 30%;
+	top: 49%;
+	width: 120px;
+}
+.timeline ul .point-four .time {
+	left: 29%;
+	top: 73%;
+	width: 120px;
+}
+
+.timeline ul li .content h3 {
+    color: #e68966;
+    font-size: 17px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .skill-head {
+		margin: 40px 0;
+	}
+
+	.skill-head h1 {
+		font-size: 35px;
+	}
+
+	.skill-icon {
+		width: 50%;
+	}
+
+	.skill-icon i {
+		font-size: 70px;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .timeline-items {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 80px 0;
+		margin-bottom: 0;
+	}
+
+	.timeline {
+		width: 80%;
+		margin: 0px auto;
+	}
+	.timeline:before {
+		left: 10px;
+		height: 760px;
+	}
+	.timeline ul li {
+		width: 100%;
+		padding: 3px 0px 40px 20px;
+		cursor: pointer;
+	}
+	.timeline ul li:nth-child(even):before {
+		left: -6px;
+	}
+	.timeline ul li:nth-child(odd):before {
+		left: -6px;
+	}
+	.timeline ul li:nth-child(even) {
+		float: left;
+		text-align: left;
+	}
+	.timeline ul li:nth-child(odd) {
+		float: left;
+		text-align: left;
+	}
+
+	.timeline ul li:nth-child(odd) .time {
+		position: static;
+		text-align: left;
+		padding-left: 5px;
+		box-shadow: 0px 0px 0px 0px;
+	}
+	.timeline ul li:nth-child(even) .time {
+		position: static;
+		text-align: left;
+		padding-left: 5px;
+		box-shadow: 0px 0px 0px 0px;
+	}
+
+	.timeline ul .point-two .time {
+		width: 125px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .timeline:before {
+		left: 49%;
+		bottom: 20px;
+	}
+
+	.timeline-items {
+		margin: 60px 0;
+	}
+
+	.timeline ul .point-one .time {
+		right: 20%;
+	}
+
+	.timeline ul .point-two .time {
+		left: 8%;
+	}
+
+	.timeline ul .point-three .time {
+		right: 20%;
+	}
+
+	.timeline ul .point-four .time {
+		left: 17%;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1441.98px){
+    
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
+}

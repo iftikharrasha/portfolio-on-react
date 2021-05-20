@@ -36,7 +36,7 @@ const Header = () => {
                             <div className="nav-menu" id="mobile-nav">
                                     <Link to="/home" className="pr-4 active nav-links nav-top-mt" onClick={activeToggle}>Home</Link>
                                     <Link to="/projects" className="pr-4 nav-links" onClick={activeToggle}>Projects</Link>
-                                    <Link to="/about" className="pr-4 nav-links" onClick={activeToggle}>About Us</Link>
+                                    <Link to="/skills" className="pr-4 nav-links" onClick={activeToggle}>Skills</Link>
                                     <Link to="http://iftikharrasha.me" className="pr-4 nav-links" target="_blank">Download CV</Link>
                             </div>
                         </nav>

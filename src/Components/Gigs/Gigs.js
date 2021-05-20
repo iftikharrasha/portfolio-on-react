@@ -15,8 +15,6 @@ const Gigs = () => {
                     <Row>
                         <Col md={12}>
                             <h2>My Gigs</h2>
-                            <p>Get email templates for your email marketing and mockups for your products
-                            </p>
                             <div className="giglist">
                                     <a href="https://www.fiverr.com/iftikharrasha" target="_blank" className="giglist_item">
                                         <img src={profile} alt="profile" className="giglist_img"/>

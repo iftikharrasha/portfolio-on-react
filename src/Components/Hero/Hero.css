@@ -3,7 +3,11 @@
 }
 
 .hero-me {
-	/* margin-top: 240px; */
+	/* margin-top: 240px;*/
+}
+
+.hero-row{
+	padding-top: 230px;
 }
 
 .hero-me img {
@@ -11,6 +15,7 @@
 }
 
 .hero-me h1 {
+	font-family: 'Major Mono Display', monospace;
 	font-size: 24px;
 	color: white;
 }
@@ -73,6 +78,20 @@
 }
 
 
+.hero-details p {
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 4.9vw;
+    margin-bottom: -3vw;
+    padding: 0% 5%;
+    letter-spacing: 2px;
+}
+
+.hero-details p span {
+    color: #969595;
+}
+
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.hero-me {
@@ -118,6 +137,10 @@
 	.hero .rubic-white {
 		display: none;
 	}
+
+	.hero-row {
+		padding-top: 0;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -144,6 +167,10 @@
 
 	.hero .rubic-white {
 		display: none;
+	}
+
+	.hero-row {
+		padding-top: 0;
 	}
 }
 
@@ -172,8 +199,8 @@
 	}
 
 	.hero-page {
-        margin-top: 250px;
-    }
+		display: none;
+	}
 
 	.hero-page .pen {
 		top: 43%;
@@ -181,21 +208,29 @@
 
 	.hero .rubic-purp {
         max-width: 130px;
-        top: 30vh;
+        top: 40vh;
     }
 
 	.hero .rubic-white {
 		max-width: 100px;
-		top: 70%;
 		right: 10%;
+	}
+
+	.hero-row {
+		padding-top: 150px;
+	}
+
+	.hero-details p {
+		font-size: 5.9vw;
+		margin-bottom: -4vw;
 	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .hero-page {
-        margin-top: 200px;
-    }
+		margin-top: 150px;
+	}
 
     .hero .rubic-white {
         right: 8%;
@@ -203,13 +238,22 @@
 
 	.hero .rubic-white {
 		max-width: 90px;
-		top: 66%;
+		top: 80vh;
 		right: 10%;
 	}
 
 	.hero .rubic-purp {
 		max-width: 140px;
-		top: 40px;
+		top: 30vh;
+	}
+
+	.hero-row {
+		padding-top: 150px;
+	}
+
+	.hero-details p {
+		font-size: 5.9vw;
+		margin-bottom: -4vw;
 	}
 }
 
@@ -218,6 +262,10 @@
     .hero-page .page {
         width: 75%;
     }
+
+	.hero-row {
+		padding-top: 150px;
+	}
 }
   
 /* Extra large devices (large desktops, 1200px and up) */

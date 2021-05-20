@@ -37,9 +37,6 @@
 	padding-left: 35px;
 }
 
-.projects-options {
-}
-
 .project_icon i {
 	font-size: 45px;
 	margin: 0 15px;
@@ -51,6 +48,16 @@
 	transform: translateY(-10px);
 }
 
+.plist-item{
+	border-bottom: 1px solid #dee2e6;
+}
+
+.plist-item:last-child{
+	border-bottom: none;
+}
+.more{
+	font-size: 30px;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -70,10 +77,6 @@
 	.project_icon i {
 		font-size: 38px;
 	}
-
-    .plist-item{
-        border-bottom: 1px solid #dee2e6;
-    }
 
     .project-tabs {
         padding: 100px 0;

@@ -21,6 +21,10 @@ import ReviewsSlider from './Components/ReviewsSlider/ReviewsSlider';
 import LazyLoad from './Components/LazyLoad/LazyLoad';
 import ProjectHero from './Components/ProjectHero/ProjectHero';
 import ProjectList from './Components/ProjectList/ProjectList';
+import Intro from './Components/Intro/Intro';
+import Skills from './Components/Skills/Skills';
+import Progress from './Components/Progress/Progress';
+import Education from './Components/Education/Education';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
@@ -52,6 +56,15 @@ function App() {
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
                                             <ProjectHero></ProjectHero>
                                             <ProjectList></ProjectList>
+                                            <Contact></Contact>
+                                        </Suspense>
+                                </Route>
+                                <Route path="/skills">
+                                        <Suspense fallback={<LazyLoad></LazyLoad>}>
+                                            <Intro></Intro>
+                                            <Skills></Skills>
+                                            {/* <Progress></Progress> */}
+                                            <Education></Education>
                                             <Contact></Contact>
                                         </Suspense>
                                 </Route>

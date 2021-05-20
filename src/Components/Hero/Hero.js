@@ -12,23 +12,47 @@ const Hero = () => {
         <>
             <section className="hero">
                 <Container>
-                    <Row>
+                    <Row className="hero-row">
                         <Col md={6} className="d-flex align-items-center">
-                            <div className="hero-me pt-5">
+                            <div className="hero-me">
                                 <img className="wow bounceIn" data-wow-duration="1s" data-wow-delay=".1s" src={rasha}
                                     alt="rasha"/>
-                                <h2 className="py-3 pl-0 pb-0 mb-0">Iftikhar Rasha <span className="element"></span></h2>
-                                <h1 className="py-3 pl-0 pb-0 mb-0">Full Stack Web Developer</h1>
-                                <p className="py-3 pl-0">Resolving design problems, building smart user interfaces and useful interactions,
+                                {/* <h2 className="py-3 pl-0 pb-0 mb-0">Iftikhar Rasha <span className="element"></span></h2> */}
+                                <h1 className="py-3 pl-0 pb-0 mb-0">I'm Iftikhar Rasha</h1>
+                                <p className="py-3 pl-0">Expertise in Resolving design problems, building smart user interfaces and interactions,
                                     developing rich web applications and seamless web experience.<br></br>
                                 </p>
                                 <a href="#works" className="styled_button wow fadeInDown" data-wow-delay="0.5s">My Works</a>
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className="hero-page">
-                                <img className="page" src={page} alt="page"/>
-                                <img className="pen" src={pen} alt="pen"/>
+                            <div className="hero-page hero-details">
+                                {/* <img className="page" src={page} alt="page"/>
+                                <img className="pen" src={pen} alt="pen"/> */}
+                                <p> 
+                                    <span>“
+                                    </span>C
+                                    <span>o
+                                    </span>DE
+                                    <span>R
+                                    </span>,
+                                </p>
+                                <p>T
+                                    <span>H
+                                    </span>INKE
+                                    <span>R,
+                                    </span>
+                                </p>
+                                <p>  
+                                    <span>A
+                                    </span>BST
+                                    <span>RA
+                                    </span>CT 
+                                </p>
+                                <p>  DESI
+                                    <span>G
+                                    </span>NER”
+                                </p>
                             </div>
                         </Col>
                         <img className="rubic rubic-purp" src={purple} alt="purpcube"/>

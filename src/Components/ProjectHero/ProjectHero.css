@@ -8,6 +8,7 @@
 }
 
 .phero-text h1 {
+    font-family: 'Major Mono Display', monospace;
 	color: #121212;
 	padding-top: 10%;
 	font-size: 100px;

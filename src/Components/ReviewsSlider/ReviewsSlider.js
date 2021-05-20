@@ -11,7 +11,7 @@ const ReviewsSlider = () => {
     const [review, setReviews] = useState([]);
     useEffect(() => {
     setReviews(reviews);
-    console.log(reviews);
+    // console.log(reviews);
     }, [])
 
     var settings = {

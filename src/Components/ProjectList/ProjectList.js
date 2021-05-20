@@ -12,12 +12,16 @@ const ProjectList = () => {
 
     return (
         <>
-            <section class="section projects-list">
-                <div class="project-item1">
-                    <div class="container">
+            <section className="section projects-list">
+                <div className="project-item1">
+                    <div className="container">
                             {
                               project.map(project => <MyProject project={project} key={project.key}></MyProject>)
                             }
+
+                            <div className="text-left mt-5">
+                                <h6 className="more"> More projects coming ... </h6>
+                            </div>
                     </div>
                 </div>
             </section>

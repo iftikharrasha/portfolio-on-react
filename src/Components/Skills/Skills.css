@@ -1,0 +1,123 @@
+.skills{
+    background-color: #121212;
+}
+
+.skills_section {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.skill-head {
+	margin: 80px 0;
+}
+
+.skill-head h1 {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.skill-head h2 {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.skill-head p {
+	margin-bottom: 10px;
+}
+
+.skill-head a {
+	color: #e68966;
+}
+
+.skills_brands {
+	margin-top: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skill-icon {
+	text-transform: uppercase;
+	width: 25%;
+}
+
+.skill-icon i {
+	font-size: 100px;
+	color: rgb(129, 86, 252);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .skill-head {
+		margin: 40px 0;
+	}
+
+	.skill-head h1 {
+		font-size: 35px;
+	}
+
+	.skill-icon {
+		width: 50%;
+	}
+
+	.skill-icon i {
+		font-size: 70px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .skill-head {
+		margin: 40px 0;
+	}
+
+	.skill-head h1 {
+		font-size: 50px;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .skill-head {
+		margin: 50px 0;
+	}
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1441.98px){
+    
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
+}
