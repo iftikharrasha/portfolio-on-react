@@ -34,6 +34,7 @@ a:hover{
 
 .hero, .what-can, .projects, .gigs, .testimonials, .contact, .notFound {
   	height: 100vh;
+	min-height: 1000px;
 }
 
 .styled_button {
@@ -67,4 +68,64 @@ a:hover{
 
 .github:hover {
 	color: #e68966;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.hero, .what-can, .projects, .gigs, .testimonials, .contact, .notFound {
+		min-height: 780px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.hero, .what-can, .projects, .gigs, .testimonials, .contact, .notFound {
+		min-height: 780px;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.hero, .what-can, .projects, .gigs, .testimonials, .contact, .notFound {
+		min-height: 800px;
+	}
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero, .what-can, .projects, .gigs, .testimonials, .contact, .notFound {
+		min-height: 820px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1441.98px){
+	.hero, .what-can, .projects, .gigs, .testimonials, .contact, .notFound {
+		min-height: 820px;
+	}
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
 }

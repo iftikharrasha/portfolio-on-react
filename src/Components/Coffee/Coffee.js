@@ -15,7 +15,7 @@ const Coffee = () => {
                             <Col sm={3}>
                                 <div className="count-item count-white">
                                     <h3>PROJECTS<br />DONE</h3>
-                                    <CountUp className="count" end={7} />
+                                    <CountUp className="count" end={17} />
                                 </div>
                             </Col>
                             <Col sm={3}>

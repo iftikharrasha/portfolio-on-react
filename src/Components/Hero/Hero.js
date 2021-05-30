@@ -11,7 +11,7 @@ const Hero = () => {
             <section className="hero">
                 <Container>
                     <Row className="hero-row">
-                        <Col md={6} className="d-flex align-items-center">
+                        <Col lg={6} className="d-flex align-items-center">
                             <div className="hero-me">
                                 <img className="wow bounceIn" data-wow-duration="1s" data-wow-delay=".1s" src={rasha}
                                     alt="rasha"/>
@@ -23,7 +23,7 @@ const Hero = () => {
                                 <a href="#works" className="styled_button wow fadeInDown" data-wow-delay="0.5s">My Works</a>
                             </div>
                         </Col>
-                        <Col md={6}>
+                        <Col lg={6}>
                             <div className="hero-page hero-details">
                                 {/* <img className="page" src={page} alt="page"/>
                                 <img className="pen" src={pen} alt="pen"/> */}
