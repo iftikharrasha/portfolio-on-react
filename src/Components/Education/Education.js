@@ -30,7 +30,7 @@ const Education = () => {
                                         </li>
                                         <li className="point-two">
                                             <div className="time">
-                                                <span>2016- present</span>
+                                                <span>2016- 2021</span>
                                             </div>
                                             <div className="content">
                                                 <h3>University</h3>
