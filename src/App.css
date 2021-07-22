@@ -5,27 +5,6 @@ body {
 
 .App{
     position:relative;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-.fade-enter{
-  	opacity: 0;
-}
-
-.fade-exit{
-  	opacity: 1;
-}
-.fade-enter-active{
-  	opacity: 1;
-}
-.fade-exit-active{
-  	opacity: 0;
-}
-.fade-enter-active,
-.fade-exit-active{
-  	transition: opacity 400ms;
 }
 
 a:hover{
