@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import resume from '../../cv/IftikharRasha-Resume.pdf';
 import './Header.css';
+import { motion } from 'framer-motion';
 
 const Header = () => {
     const [scroll, setScroll] = useState(false);
@@ -22,7 +23,11 @@ const Header = () => {
         <>
             <header className={scroll ? "header-sticky" : "header"}>
                 <Container>
-                        <nav className="navbarItems">
+                        <motion.nav className="navbarItems"
+                            initial={{ y: -250 }}
+                            animate={{ y: 0 }}
+                            transition={{ delay: 0.5, type: 'spring', stiffness: 70 }}
+                        >
                             <Link to="/home" className="navbar-logo">
                                 <img src={logo} width="100%" className="d-inline-block align-top" alt="iftikharrasha"/>
                             </Link>
@@ -40,7 +45,7 @@ const Header = () => {
                                     <Link to="/skills" className="pr-4 nav-links" onClick={activeToggle}>Skills</Link>
                                     <Link to={resume} className="pr-4 nav-links" target="_blank">Download CV</Link>
                             </div>
-                        </nav>
+                        </motion.nav>
                 </Container>
             </header> 
         </>

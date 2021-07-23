@@ -1,0 +1,66 @@
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #161616;
+}
+
+.loading .first span:last-of-type{
+    margin-right: 1rem;
+}
+
+@media (max-width: 600px) {
+    .loading .first span:last-of-type{
+        margin-right: .5rem;
+    }
+}
+
+.loading span {
+	font-family: 'Libre Barcode 39 Extended Text', cursive;
+    color: #8156FC;
+    font-size: 6rem;
+    font-weight: 300;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    .loading span {
+        font-size: 2rem;
+    }
+}
+
+.loading .line {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    background: #e68966;
+    height: 2px;
+    width: 100vw;
+    mix-blend-mode: exclusion;
+}
+
+.left-panel-background, .right-panel-background {
+    height: 100vh;
+    width: 50vw;
+    position: absolute;
+    z-index: 550;
+}
+
+.left-panel-background {
+    left: 0;
+    background: #8156FC;
+}
+
+.right-panel-background {
+    right: 0;
+    background: #e68966;
+}
+
+

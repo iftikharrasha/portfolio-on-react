@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Hero from '../Components/Hero/Hero';
 import Coffee from '../Components/Coffee/Coffee';
 import ProjectsSlider from '../Components/ProjectsSlider/ProjectsSlider';
@@ -29,6 +29,14 @@ const containerVarients = {
   }
 
 const Home = () => {
+    useEffect(() => {
+
+        setTimeout(() => {
+            document.body.style.overflow = "visible"
+        }, 3000)
+
+    })
+
     return (
         <motion.div
             variants={containerVarients}
